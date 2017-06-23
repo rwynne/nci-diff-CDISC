@@ -24,7 +24,7 @@ OR
 
 Clone the DiffCDISC repository onto your local filesystem using Git:
 
-C:\> git clone https://github.com/NCIEVS/nci-diff-CDISC.git
+C:\> git clone https://github.com/NCIP/nci-diff-CDISC.git
 
 Open a Command Prompt and navigate to the repository directory.
 
