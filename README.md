@@ -92,6 +92,10 @@ each quarterly release.
 
 Version 2.0 was implemented in 2015
 
+Users with a system default character encoding of UTF-8 will want
+to change the project to windows-1252 or ISO-8859-1 (Latin1) as characters
+such as non-breaking spaces will cause inaccurate results.
+
 Release notes between 1.0 and 2.0
 ---------------------------------
 
