@@ -1,4 +1,4 @@
-CDISC Changes Report Generator v2.0
+CDISC Changes Report Generator v2.1
 ===================================
 
 This program will generate a changes report between two CDISC releases.
