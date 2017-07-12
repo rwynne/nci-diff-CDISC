@@ -271,7 +271,7 @@ public class Diff {
 		HashMap<Codelist, ArrayList<Element>> map = new HashMap<Codelist, ArrayList<Element>>();
 		
 		try {
-			Scanner input = new Scanner(new File(filename));
+			Scanner input = new Scanner(new File(filename), "windows-1252");
 			int lineNum = 0;
 			while(input.hasNext()) {
 				lineNum++;
