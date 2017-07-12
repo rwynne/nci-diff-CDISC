@@ -1,7 +1,7 @@
 # nci-diff-CDISC
 diff specific for CDISC reports
 
-CDISC Changes Report Generator v2.0
+CDISC Changes Report Generator v2.1
 ===================================
 
 This program will generate a changes report between two CDISC releases.
@@ -24,7 +24,7 @@ OR
 
 Clone the DiffCDISC repository onto your local filesystem using Git:
 
-C:\> git clone https://github.com/NCIP/nci-diff-CDISC.git
+C:\> git clone https://github.com/NCIEVS/nci-diff-CDISC.git
 
 Open a Command Prompt and navigate to the repository directory.
 
@@ -91,10 +91,7 @@ JIRA tracking system.  This column is manually populated by EVS before
 each quarterly release.
 
 Version 2.0 was implemented in 2015
-
-Users with a system default character encoding of UTF-8 will want
-to change the project to windows-1252 or ISO-8859-1 (Latin1) as characters
-such as non-breaking spaces will cause inaccurate results.
+Version 2.1 was implemented after Q2 2017
 
 Release notes between 1.0 and 2.0
 ---------------------------------
@@ -105,3 +102,7 @@ Release notes between 1.0 and 2.0
 4. Report changes on removed Codelists
 5. Verbaige updates to "Change Types" ("Add" or "Remove" on "CDISC Synonyms" is now just "Update" for existing codelists.)
 6. Improved handling of inputs
+
+2.0 and 2.1
+-----------
+1. Default character set for input Scanner is now windows-1252 to allow reported differences on special characters such as non-breaking spaces.
