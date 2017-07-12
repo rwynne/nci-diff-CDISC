@@ -83,6 +83,7 @@ JIRA tracking system.  This column is manually populated by EVS before
 each quarterly release.
 
 Version 2.0 was implemented in 2015
+Version 2.1 was implemented in Q2 of 2017
 
 Release notes between 1.0 and 2.0
 ---------------------------------
@@ -93,3 +94,7 @@ Release notes between 1.0 and 2.0
 4. Report changes on removed Codelists
 5. Verbaige updates to "Change Types" ("Add" or "Remove" on "CDISC Synonyms" is now just "Update" for existing codelists.)
 6. Improved handling of inputs
+
+2.0 and 2.1
+-----------
+1. Default character set for input Scanner is now windows-1252 to allow reported differences on special characters such as non-breaking spaces.
